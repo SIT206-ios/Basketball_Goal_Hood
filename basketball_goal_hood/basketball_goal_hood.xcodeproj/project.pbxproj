@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70DC983F1EB4848B005DBDD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DC983E1EB4848B005DBDD8 /* AppDelegate.swift */; };
+		70DC98411EB4848B005DBDD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DC98401EB4848B005DBDD8 /* ViewController.swift */; };
+		70DC98441EB4848B005DBDD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70DC98421EB4848B005DBDD8 /* Main.storyboard */; };
+		70DC98461EB4848B005DBDD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70DC98451EB4848B005DBDD8 /* Assets.xcassets */; };
+		70DC98491EB4848B005DBDD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70DC98471EB4848B005DBDD8 /* LaunchScreen.storyboard */; };
+		70DC98541EB4848C005DBDD8 /* basketball_goal_hoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DC98531EB4848C005DBDD8 /* basketball_goal_hoodTests.swift */; };
+		70DC985F1EB4848C005DBDD8 /* basketball_goal_hoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DC985E1EB4848C005DBDD8 /* basketball_goal_hoodUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70DC98501EB4848C005DBDD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70DC98331EB4848B005DBDD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70DC983A1EB4848B005DBDD8;
+			remoteInfo = basketball_goal_hood;
+		};
+		70DC985B1EB4848C005DBDD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70DC98331EB4848B005DBDD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70DC983A1EB4848B005DBDD8;
+			remoteInfo = basketball_goal_hood;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		70DC983B1EB4848B005DBDD8 /* basketball_goal_hood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = basketball_goal_hood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70DC983E1EB4848B005DBDD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		70DC98401EB4848B005DBDD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		70DC98431EB4848B005DBDD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70DC98451EB4848B005DBDD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70DC98481EB4848B005DBDD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		70DC984A1EB4848B005DBDD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70DC984F1EB4848C005DBDD8 /* basketball_goal_hoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = basketball_goal_hoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70DC98531EB4848C005DBDD8 /* basketball_goal_hoodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = basketball_goal_hoodTests.swift; sourceTree = "<group>"; };
+		70DC98551EB4848C005DBDD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70DC985A1EB4848C005DBDD8 /* basketball_goal_hoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = basketball_goal_hoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70DC985E1EB4848C005DBDD8 /* basketball_goal_hoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = basketball_goal_hoodUITests.swift; sourceTree = "<group>"; };
+		70DC98601EB4848C005DBDD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70DC98381EB4848B005DBDD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70DC984C1EB4848C005DBDD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70DC98571EB4848C005DBDD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70DC98321EB4848B005DBDD8 = {
+			isa = PBXGroup;
+			children = (
+				70DC983D1EB4848B005DBDD8 /* basketball_goal_hood */,
+				70DC98521EB4848C005DBDD8 /* basketball_goal_hoodTests */,
+				70DC985D1EB4848C005DBDD8 /* basketball_goal_hoodUITests */,
+				70DC983C1EB4848B005DBDD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70DC983C1EB4848B005DBDD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70DC983B1EB4848B005DBDD8 /* basketball_goal_hood.app */,
+				70DC984F1EB4848C005DBDD8 /* basketball_goal_hoodTests.xctest */,
+				70DC985A1EB4848C005DBDD8 /* basketball_goal_hoodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70DC983D1EB4848B005DBDD8 /* basketball_goal_hood */ = {
+			isa = PBXGroup;
+			children = (
+				70DC983E1EB4848B005DBDD8 /* AppDelegate.swift */,
+				70DC98401EB4848B005DBDD8 /* ViewController.swift */,
+				70DC98421EB4848B005DBDD8 /* Main.storyboard */,
+				70DC98451EB4848B005DBDD8 /* Assets.xcassets */,
+				70DC98471EB4848B005DBDD8 /* LaunchScreen.storyboard */,
+				70DC984A1EB4848B005DBDD8 /* Info.plist */,
+			);
+			path = basketball_goal_hood;
+			sourceTree = "<group>";
+		};
+		70DC98521EB4848C005DBDD8 /* basketball_goal_hoodTests */ = {
+			isa = PBXGroup;
+			children = (
+				70DC98531EB4848C005DBDD8 /* basketball_goal_hoodTests.swift */,
+				70DC98551EB4848C005DBDD8 /* Info.plist */,
+			);
+			path = basketball_goal_hoodTests;
+			sourceTree = "<group>";
+		};
+		70DC985D1EB4848C005DBDD8 /* basketball_goal_hoodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				70DC985E1EB4848C005DBDD8 /* basketball_goal_hoodUITests.swift */,
+				70DC98601EB4848C005DBDD8 /* Info.plist */,
+			);
+			path = basketball_goal_hoodUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70DC983A1EB4848B005DBDD8 /* basketball_goal_hood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70DC98631EB4848C005DBDD8 /* Build configuration list for PBXNativeTarget "basketball_goal_hood" */;
+			buildPhases = (
+				70DC98371EB4848B005DBDD8 /* Sources */,
+				70DC98381EB4848B005DBDD8 /* Frameworks */,
+				70DC98391EB4848B005DBDD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = basketball_goal_hood;
+			productName = basketball_goal_hood;
+			productReference = 70DC983B1EB4848B005DBDD8 /* basketball_goal_hood.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70DC984E1EB4848C005DBDD8 /* basketball_goal_hoodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70DC98661EB4848C005DBDD8 /* Build configuration list for PBXNativeTarget "basketball_goal_hoodTests" */;
+			buildPhases = (
+				70DC984B1EB4848C005DBDD8 /* Sources */,
+				70DC984C1EB4848C005DBDD8 /* Frameworks */,
+				70DC984D1EB4848C005DBDD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70DC98511EB4848C005DBDD8 /* PBXTargetDependency */,
+			);
+			name = basketball_goal_hoodTests;
+			productName = basketball_goal_hoodTests;
+			productReference = 70DC984F1EB4848C005DBDD8 /* basketball_goal_hoodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		70DC98591EB4848C005DBDD8 /* basketball_goal_hoodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70DC98691EB4848C005DBDD8 /* Build configuration list for PBXNativeTarget "basketball_goal_hoodUITests" */;
+			buildPhases = (
+				70DC98561EB4848C005DBDD8 /* Sources */,
+				70DC98571EB4848C005DBDD8 /* Frameworks */,
+				70DC98581EB4848C005DBDD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70DC985C1EB4848C005DBDD8 /* PBXTargetDependency */,
+			);
+			name = basketball_goal_hoodUITests;
+			productName = basketball_goal_hoodUITests;
+			productReference = 70DC985A1EB4848C005DBDD8 /* basketball_goal_hoodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70DC98331EB4848B005DBDD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "YINNENG DU";
+				TargetAttributes = {
+					70DC983A1EB4848B005DBDD8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					70DC984E1EB4848C005DBDD8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 70DC983A1EB4848B005DBDD8;
+					};
+					70DC98591EB4848C005DBDD8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 70DC983A1EB4848B005DBDD8;
+					};
+				};
+			};
+			buildConfigurationList = 70DC98361EB4848B005DBDD8 /* Build configuration list for PBXProject "basketball_goal_hood" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70DC98321EB4848B005DBDD8;
+			productRefGroup = 70DC983C1EB4848B005DBDD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70DC983A1EB4848B005DBDD8 /* basketball_goal_hood */,
+				70DC984E1EB4848C005DBDD8 /* basketball_goal_hoodTests */,
+				70DC98591EB4848C005DBDD8 /* basketball_goal_hoodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70DC98391EB4848B005DBDD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70DC98491EB4848B005DBDD8 /* LaunchScreen.storyboard in Resources */,
+				70DC98461EB4848B005DBDD8 /* Assets.xcassets in Resources */,
+				70DC98441EB4848B005DBDD8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70DC984D1EB4848C005DBDD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70DC98581EB4848C005DBDD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70DC98371EB4848B005DBDD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70DC98411EB4848B005DBDD8 /* ViewController.swift in Sources */,
+				70DC983F1EB4848B005DBDD8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70DC984B1EB4848C005DBDD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70DC98541EB4848C005DBDD8 /* basketball_goal_hoodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70DC98561EB4848C005DBDD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70DC985F1EB4848C005DBDD8 /* basketball_goal_hoodUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70DC98511EB4848C005DBDD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70DC983A1EB4848B005DBDD8 /* basketball_goal_hood */;
+			targetProxy = 70DC98501EB4848C005DBDD8 /* PBXContainerItemProxy */;
+		};
+		70DC985C1EB4848C005DBDD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70DC983A1EB4848B005DBDD8 /* basketball_goal_hood */;
+			targetProxy = 70DC985B1EB4848C005DBDD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		70DC98421EB4848B005DBDD8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70DC98431EB4848B005DBDD8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		70DC98471EB4848B005DBDD8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70DC98481EB4848B005DBDD8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70DC98611EB4848C005DBDD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70DC98621EB4848C005DBDD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70DC98641EB4848C005DBDD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = basketball_goal_hood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SIT-206--Assignment2.basketball-goal-hood";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		70DC98651EB4848C005DBDD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = basketball_goal_hood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SIT-206--Assignment2.basketball-goal-hood";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		70DC98671EB4848C005DBDD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = basketball_goal_hoodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SIT-206--Assignment2.basketball-goal-hoodTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/basketball_goal_hood.app/basketball_goal_hood";
+			};
+			name = Debug;
+		};
+		70DC98681EB4848C005DBDD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = basketball_goal_hoodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SIT-206--Assignment2.basketball-goal-hoodTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/basketball_goal_hood.app/basketball_goal_hood";
+			};
+			name = Release;
+		};
+		70DC986A1EB4848C005DBDD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = basketball_goal_hoodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SIT-206--Assignment2.basketball-goal-hoodUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = basketball_goal_hood;
+			};
+			name = Debug;
+		};
+		70DC986B1EB4848C005DBDD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = basketball_goal_hoodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SIT-206--Assignment2.basketball-goal-hoodUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = basketball_goal_hood;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70DC98361EB4848B005DBDD8 /* Build configuration list for PBXProject "basketball_goal_hood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70DC98611EB4848C005DBDD8 /* Debug */,
+				70DC98621EB4848C005DBDD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70DC98631EB4848C005DBDD8 /* Build configuration list for PBXNativeTarget "basketball_goal_hood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70DC98641EB4848C005DBDD8 /* Debug */,
+				70DC98651EB4848C005DBDD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		70DC98661EB4848C005DBDD8 /* Build configuration list for PBXNativeTarget "basketball_goal_hoodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70DC98671EB4848C005DBDD8 /* Debug */,
+				70DC98681EB4848C005DBDD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		70DC98691EB4848C005DBDD8 /* Build configuration list for PBXNativeTarget "basketball_goal_hoodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70DC986A1EB4848C005DBDD8 /* Debug */,
+				70DC986B1EB4848C005DBDD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70DC98331EB4848B005DBDD8 /* Project object */;
+}
